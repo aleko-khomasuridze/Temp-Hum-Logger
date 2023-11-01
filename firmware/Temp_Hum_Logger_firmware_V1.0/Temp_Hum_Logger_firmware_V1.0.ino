@@ -1,10 +1,10 @@
-#include <Wire.h>
-#include <RTClib.h>
-#include <DHT.h>
-#include <Adafruit_SSD1306.h>
-#include <Adafruit_GFX.h>
-#include <SPI.h>
-#include <SD.h>
+#include <Wire.h>                 // library for two wire communication
+#include <RTClib.h>               // library for real time clock
+#include <DHT.h>                  // library for temperature and humidity sensor
+#include <Adafruit_SSD1306.h>     // library for OLED Chip driver
+#include <Adafruit_GFX.h>         // library for graphics 
+#include <SPI.h>                  // library for seria peripherial interface
+#include <SD.h>                   // library for writing data on SD card
 
 // Definitions for the DHT sensor
 #define DHT_PIN 2
