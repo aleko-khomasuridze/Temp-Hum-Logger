@@ -71,10 +71,10 @@ public:
     Wire.begin();
     rtc.begin();
 
-    if (!rtc.isrunning()) {
-      Serial.println("RTC is not running. Setting time...");
-      rtc.adjust(DateTime(2023, 11, 1, 9, 0, 0));
-    }
+    //if (!rtc.isrunning()) {
+      //Serial.println("RTC is not running. Setting time...");
+      //rtc.adjust(DateTime(2023, 11, 1, 9, 0, 0));
+    //}
 
     if (!display.begin(SSD1306_I2C_ADDRESS, OLED_RESET)) {
       Serial.println(F("SSD1306 allocation failed"));
