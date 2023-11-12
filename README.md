@@ -1,1 +1,1 @@
-# Temp-Hum-Logger
+# Temperature Humidity Logger
